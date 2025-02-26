@@ -57,13 +57,13 @@
         share_name = "chirpstack"
 
         # MQTT server (e.g. scheme://host:port where scheme is tcp, ssl or ws)
-        server = "tcp://localhost:1883"
+        server="tcp://core-mosquitto:1883"
 
         # Connect with the given username (optional)
-        username = ""
+        username="loramqtt"
 
         # Connect with the given password (optional)
-        password = ""
+        password="ploramqtt"
 
         # Quality of service level
         #
