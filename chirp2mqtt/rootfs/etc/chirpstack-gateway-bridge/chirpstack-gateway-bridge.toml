@@ -39,10 +39,10 @@ marshaler="protobuf"
   # MQTT integration configuration.
   [integration.mqtt]
   # Event topic template.
-  event_topic_template="eu868/gateway/{{ .GatewayID }}/event/{{ .EventType }}"
+  event_topic_template="au915_0/gateway/{{ .GatewayID }}/event/{{ .EventType }}"
 
   # Command topic template.
-  command_topic_template="eu868/gateway/{{ .GatewayID }}/command/#"
+  command_topic_template="au915_0/gateway/{{ .GatewayID }}/command/#"
 
   # MQTT authentication.
   [integration.mqtt.auth]
