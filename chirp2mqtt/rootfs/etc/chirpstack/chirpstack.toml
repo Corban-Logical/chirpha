@@ -84,7 +84,7 @@
   enabled=["mqtt"]
 
   [integration.mqtt]
-    server="tcp://10.100.100.127:1883"
+    server="mqtt://10.100.100.127:1883"
     username="lsadmin"
     password="lsadmin"
     json=true
