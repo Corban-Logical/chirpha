@@ -57,7 +57,7 @@ marshaler="protobuf"
     server="tcp://10.100.100.127:1883"
 
     # Connect with the given username (optional)
-    username="corban"
+    username="lsadmin"
 
     # Connect with the given password (optional)
-    password="corban"
+    password="lsadmin"
