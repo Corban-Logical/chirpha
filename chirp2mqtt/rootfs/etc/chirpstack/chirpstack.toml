@@ -78,14 +78,13 @@
   # is never exposed. Changing this secret will invalidate all login and API
   # tokens. The following command can be used to generate a random secret:
   #   openssl rand -base64 32
-  secret="corban"
-
+  secret="lsadmin"
 
 [integration]
   enabled=["mqtt"]
 
   [integration.mqtt]
     server="tcp://10.100.100.127:1883"
-    username="corban"
-    password="corban"
+    username="lsadmin"
+    password="lsadmin"
     json=true
